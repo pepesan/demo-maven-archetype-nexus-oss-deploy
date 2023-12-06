@@ -11,5 +11,5 @@ services:
     volumes:
       - ./nexus-data:/nexus-data
     environment:
-      - INSTALL4J_ADD_VM_PARAMS=-Xms2g -Xmx2g
+      - INSTALL4J_ADD_VM_PARAMS=-Xms2703m -Xmx2703m -XX:MaxDirectMemorySize=2703m -Djava.util.prefs.userRoot=/nexus-data/javaprefs
     restart: always
