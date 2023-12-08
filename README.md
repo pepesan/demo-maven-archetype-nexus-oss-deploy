@@ -1,6 +1,6 @@
 # Proyecto de ejemplo de uso de Nexus OSS con Docker Compose
 
-Disponemos de un compose.yaml que nos permite gestioanr un servicio nexus
+Disponemos de un compose.yaml que nos permite gestionar un servicio nexus
 
 ## Requisitos
 Necesitamos tener instalado Docker y Docker Compose
@@ -34,4 +34,11 @@ Ejecutamos el despliegue
 ```
 
 ## Verificamos el contenido desde Nexus en el repositorio Releases
+
+
+## Contenido del Artefacto
+El contenido del arquetipo estará definido dentro de src/main/resources/archetype-resources
+y los ficheros a gestioanr están en src/main/Resources/META-INF/maven en un fichero llamado archetype.xml
+
+
 

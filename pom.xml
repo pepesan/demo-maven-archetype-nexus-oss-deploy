@@ -3,9 +3,10 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.cursosdedesarrollo</groupId>
   <artifactId>cdd-archetype-junit5</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0-FINAL</version>
   <name>Archetype - cdd-archetype-junit5</name>
   <url>http://maven.apache.org</url>
+  <packaging>maven-archetype</packaging>
   <distributionManagement>
     <snapshotRepository>
       <id>nexus-snapshots</id>
@@ -46,5 +47,12 @@
         </configuration>
       </plugin>
     </plugins>
+    <extensions>
+      <extension>
+        <groupId>org.apache.maven.archetype</groupId>
+        <artifactId>archetype-packaging</artifactId>
+        <version>3.2.1</version>
+      </extension>
+    </extensions>
   </build>
 </project>
